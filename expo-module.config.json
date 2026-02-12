@@ -1,0 +1,9 @@
+{
+  "platforms": ["apple", "android", "web"],
+  "apple": {
+    "modules": ["AddressSelectorRnModule"]
+  },
+  "android": {
+    "modules": ["expo.modules.addressselectorrn.AddressSelectorRnModule"]
+  }
+}

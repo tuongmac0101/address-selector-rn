@@ -1,0 +1,10 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true,
+    "paths": {
+      "address-selector-rn": ["../src/index"],
+      "address-selector-rn/*": ["../src/*"]
+    }
+  }
+}
